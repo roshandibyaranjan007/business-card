@@ -1,0 +1,40 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.avatar {
+    width: 150px;
+    border: 1px dotted blue;
+}
+
+@keyframes ani {
+    from {background-color: #ddebf8;}
+    to {background-color: #9ec3e5;}
+  }
+
+.card {
+    padding: 20px;
+    width: 400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(231, 217, 231);
+    background:#ddebf8;
+    animation-name: ani;
+    animation-duration: 4s;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(232, 249, 255);
+}
+
+.blueborder {
+    border: 1px dotted blue;
+}
+
+p:hover, h3:hover, h4:hover {
+    background-color: rgb(255, 255, 255);
+    color: rebeccapurple;
+  }
